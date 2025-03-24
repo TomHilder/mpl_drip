@@ -1,8 +1,8 @@
-#Author: Thomas Hilder
+# Author: Thomas Hilder
 
 # Text rendering with LaTeX
 text.usetex: True
-## text.latex.preamble: \usepackage{bm}
+text.latex.preamble: \usepackage{bm}
 
 # Font settings
 font.family: serif
@@ -60,4 +60,4 @@ patch.edgecolor: 000000
 patch.antialiased: True
 
 # Some random stuff
-# svg.fonttype: path
+svg.fonttype: path
