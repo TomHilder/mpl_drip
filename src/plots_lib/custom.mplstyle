@@ -1,0 +1,63 @@
+#Author: Thomas Hilder
+
+# Text rendering with LaTeX
+text.usetex: True
+## text.latex.preamble: \usepackage{bm}
+
+# Font settings
+font.family: serif
+font.serif: Computer Modern
+
+# Overall font size
+font.size: 15.0
+
+# Tick sizes
+xtick.major.size: 4
+ytick.major.size: 4
+xtick.minor.size: 2.2
+ytick.minor.size: 2.2
+
+# Tick widths
+xtick.major.width: 2.0
+ytick.major.width: 2.0
+xtick.minor.width: 1.75
+ytick.minor.width: 1.75
+
+# Tick properties
+xtick.direction: in
+xtick.top: True
+ytick.direction: in
+ytick.right: True
+
+# Tick labels
+xtick.labelsize: medium
+ytick.labelsize: medium
+
+# Axes settings
+axes.linewidth: 2.0
+axes.axisbelow: True
+
+# Axes text
+axes.titlesize: x-large
+axes.labelsize: large
+
+# Color cycle
+axes.prop_cycle: cycler('color', ['29ABCA', 'FF862F', '83C167', 'FC6255', '9A72AC', '28A99E', 'F0AC5F', 'C55F73', 'DC75CD', '888888'])
+
+# Legend settings
+legend.frameon: False
+legend.facecolor: white
+legend.edgecolor: none
+
+# Line settings
+lines.linewidth: 3
+lines.solid_capstyle: round
+
+# Patches
+patch.linewidth: 1.5
+patch.facecolor: C7E9F1
+patch.edgecolor: 000000
+patch.antialiased: True
+
+# Some random stuff
+# svg.fonttype: path
