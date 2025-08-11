@@ -10,7 +10,25 @@ I use these settings because I think they make plots that are "good", but also (
 
 ## Installation
 
-Currently clone and build. TODO: pypi
+Easiest is from PyPI either with `pip` or `uv` (recommended)
+
+```sh
+pip install mpl-drip
+```
+
+```sh
+uv add mpl-drip
+```
+
+Or, you can clone and build from source
+
+```sh
+git clone git@github.com:TomHilder/mpl_drip.git
+cd mpl_drip
+pip install -e .
+```
+
+where in the last step we made an editable install with pip but you can do whatever you like.
 
 ## Usage
 
