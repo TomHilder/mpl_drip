@@ -27,5 +27,5 @@ ax.set_title(r"mpl_drip style sheet")
 ax.set_xlabel(r"$x$")
 ax.set_ylabel(r"$p(x)$")
 
-plt.savefig("histogram.png", dpi=300, bbox_inches="tight")
+plt.savefig("histogram.png", dpi=100, bbox_inches="tight")
 plt.show()
