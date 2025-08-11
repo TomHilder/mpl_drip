@@ -53,7 +53,7 @@ To access the custom colormaps:
 ```python
 from mpl_drip import colormaps
 # Then simply use `red_white_blue` or `red_white_blue_r` in place of any mpl cmap
-plt.imshow(..., cmap="red_white_blue_r)
+plt.imshow(..., cmap="red_white_blue_r")
 ```
 
 ## Credit
