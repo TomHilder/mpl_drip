@@ -1,5 +1,9 @@
 # mpl_drip
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/tomhilder/mpl_drip/examples/histogram.png" alt="logo"></img>
+</div>
+
 Installable matplotlib style sheet, a color cycle, and some nice colormaps.
 
 I use these settings because I think they make plots that are "good", but also (as the kids would say) "dripped up".
