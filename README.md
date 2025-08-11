@@ -34,9 +34,26 @@ where in the last step we made an editable install with pip but you can do whate
 
 ## Usage
 
+To use the plotting style:
+
 ```python
 import mpl_drip
 plt.style.use("mpl_drip.custom")
+```
+
+To get a colour from the cycle by index, wrapping around if the index exceeds the number of colours:
+
+```python
+from mpl_drip import get_color
+c = get_color(N) # N is any positive integer
+```
+
+To access the custom colormaps:
+
+```python
+from mpl_drip import colormaps
+# Then simply use `red_white_blue` or `red_white_blue_r` in place of any mpl cmap
+plt.imshow(..., cmap="red_white_blue_r)
 ```
 
 ## Credit
