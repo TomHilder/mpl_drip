@@ -14,4 +14,11 @@ Currently clone and build. TODO: pypi
 
 ## Usage
 
-TODO
+```python
+import mpl_drip
+plt.style.use("mpl_drip.custom")
+```
+
+## Credit
+
+The colour cycle is from [manim](https://docs.manim.community/en/stable/reference/manim.utils.color.manim_colors.html), and the `red_white_blue` colourmap is from [this repo](https://github.com/c-white/colormaps).

@@ -1,17 +1,32 @@
 [project]
 name = "mpl_drip"
-version = "1.0.0"
+dynamic = ["version"]
 description = "Make your mpl dripped up."
 readme = "README.md"
-authors = [{ name = "Tom Hilder", email = "tom.hilder.dlhp@gmail.com" }]
-requires-python = ">=3.13"
-dependencies = ["matplotlib>=3.10.5"]
+authors = [{ name = "Tom Hilder", email = "thomas.hilder@monash.edu" }]
+requires-python = ">=3.9"
+dependencies = ["matplotlib>=3.8"]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[dependency-groups]
-dev = [
-    "ipykernel>=6.30.1",
-]
+[tool.hatch.build]
+include = ["src/mpl_drip/custom.mplstyle", "src/mpl_drip/py.typed"]
+exclude = ["**/__pycache__/**"]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.targets.sdist]
+include = ["src/**", "README.md", "LICENSE", "examples/**"]
+
+[tool.hatch.build.hooks.vcs]
+version-file = "src/mpl_drip/_version.py"
