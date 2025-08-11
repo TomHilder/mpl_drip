@@ -28,5 +28,8 @@ source = "vcs"
 [tool.hatch.build.targets.sdist]
 include = ["src/**", "README.md", "LICENSE", "examples/**"]
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/mpl_drip"]
+
 [tool.hatch.build.hooks.vcs]
 version-file = "src/mpl_drip/_version.py"
