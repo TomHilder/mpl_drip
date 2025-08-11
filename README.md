@@ -1,7 +1,7 @@
 # mpl_drip
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/TomHilder/mpl_drip/main/examples/histogram.png" alt="logo"></img>
+<img src="https://raw.githubusercontent.com/TomHilder/mpl_drip/main/examples/histogram.png" alt="histogram" width="300"></img>
 </div>
 
 Installable matplotlib style sheet, a color cycle, and some nice colormaps.
