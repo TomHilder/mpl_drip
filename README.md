@@ -10,11 +10,13 @@ I use these settings because I think they make plots that are "good", but also (
 
 ## Installation
 
-Easiest is from PyPI either with `pip` or `uv` (recommended)
+Easiest is from PyPI either with `pip`
 
 ```sh
 pip install mpl-drip
 ```
+
+or `uv` (recommended)
 
 ```sh
 uv add mpl-drip
