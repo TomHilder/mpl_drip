@@ -23,7 +23,7 @@ plot_beta_hist(ax, 10, 10)
 plot_beta_hist(ax, 4, 12)
 plot_beta_hist(ax, 50, 12)
 plot_beta_hist(ax, 6, 55)
-ax.set_title(r"mpl_drip style sheet")
+ax.set_title(r"mpl_drip histogram example")
 ax.set_xlabel(r"$x$")
 ax.set_ylabel(r"$p(x)$")
 
