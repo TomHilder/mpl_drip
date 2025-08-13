@@ -37,7 +37,7 @@ where in the last step we made an editable install with pip but you can do whate
 To use the plotting style:
 
 ```python
-import mpl_drip
+# Inside an environment where mpl_drip is installed (no need to import)
 plt.style.use("mpl_drip.custom")
 ```
 
